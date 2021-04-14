@@ -1,0 +1,29 @@
+{
+  "name": "resthub",
+  "version": "1.0.0",
+  "description": "An app demostrating simple Restful API implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imjp19/try-API.git"
+  },
+  "keywords": [
+    "API",
+    "RESTFUL",
+    "JSON"
+  ],
+  "author": "imjp19",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imjp19/try-API/issues"
+  },
+  "homepage": "https://github.com/imjp19/try-API#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3"
+  }
+}
