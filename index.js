@@ -25,7 +25,7 @@ else
     console.log("Gajjab Db connect thai gyu la!!")
 
 // Setup server port
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 3000;
 
 // Send message for default URL
 app.get('/', (req, res) => res.send('Kem chhe palty??'));
@@ -34,5 +34,5 @@ app.get('/', (req, res) => res.send('Kem chhe palty??'));
 app.use('/api', apiRoutes);
 // Launch app to listen to specified port
 app.listen(port, function () {
-    console.log("Running RestHub on port " + port);
+    console.log("aapdu RestHub aa port par jabardast chale chhe => " + port);
 });
