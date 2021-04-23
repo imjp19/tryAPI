@@ -20,15 +20,15 @@ var db = mongoose.connection;
 
 // Added check for DB connection
 if(!db)
-    console.log("Error connecting db")
+    console.log("Locho, alya DB connect nathi thatu")
 else
-    console.log("Db connected successfully")
+    console.log("Gajjab Db connect thai gyu la!!")
 
 // Setup server port
 var port = process.env.PORT || 8080;
 
 // Send message for default URL
-app.get('/', (req, res) => res.send('Hello World with Express'));
+app.get('/', (req, res) => res.send('Kem chhe palty??'));
 
 // Use Api routes in the App
 app.use('/api', apiRoutes);
